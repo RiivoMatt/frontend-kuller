@@ -1,6 +1,6 @@
-header, body, footer, nav {
+/*header, body, footer, nav {
     border: 1px solid red;
-}
+}*/
 
 img {
     max-width: 100%;
@@ -12,11 +12,16 @@ img {
     max-height: 180px;
    /* height: clamp(64px, 20vh, 180px);*/
    padding: 4vh 0;
-   background-color: bisque;
+   /*background-color: bisque;*/
    display: flex;
    justify-content: space-between;
-
+}
 .logo-main {
     width: 100px;
     height: auto;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
 }
