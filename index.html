@@ -5,21 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OliverM_frontend_kuller</title>
-    <link rel="stylesheet" href="/styles/normalize.css">
+  <!-- <link rel="stylesheet" href="/styles/normalize.css">-->
+    <!--Write your comments here -->
     <link rel="stylesheet" href="/styles/style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+     <!--<script src="https://cdn.tailwindcss.com"></script>-->
 </head>
 <body>
-    <header class="header-main">
+
+
+    <header class="header-main container">
         
         <img src="/pictures/logo_saadetis.png"  class="logo-main"/>
         
         <nav>
             <ul>
-                <li><a href="" > Esileht</a></li>
-                <li><a href="" > Tellimisvorm</a></li>
+                <li><a href="vorm" > Tellimisvorm</a></li>
                 <li><a href="" > Kontakt</a></li>
                 <li><a href="" > Lepinguline klient</a></li>
+                <li><a href="" class="button" > Iseteenindus</a></li>
                 
             </ul>
         </nav>
@@ -27,32 +30,35 @@
         
     
     </header>
-    <section class="hero">
-       <div>
-        <h1>Sina müü edasi, meie veame kohale!</h1>
-        <p>
-            Saadetis OÜ on kullerteenust ja transporti pakkuv ettevõte.
-             Põhitegevuseks on saadetiste ja pakkide laialiveod, kaasa arvatud 
-             jaotusveod. Pakume parimat kvaliteeti ja tegeleme Teie soovidega 
-             koheselt ning ka vastavalt erisoovidele!</p>
-        </div>
-        
-        <figure class="position-relative">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-              <path class="text-light" fill="currentColor" d="M51.2,-53.5C67.6,-47.4,82.7,-32.3,85.6,-15.2C88.6,2,79.2,21.2,67.7,37.2C56.2,53.3,42.5,66.2,26.7,70.8C11,75.4,-6.9,71.6,-19.6,63C-32.4,54.4,-40,41,-48.6,27.4C-57.2,13.9,-66.7,0.2,-68.1,-15.5C-69.5,-31.3,-62.8,-49.1,-50.1,-55.9C-37.5,-62.7,-18.7,-58.4,-0.6,-57.6C17.5,-56.9,34.9,-59.7,51.2,-53.5Z" transform="translate(100 100)"></path>
-              <defs>
-                <clipPath id="svg-mask1">
-                    <path fill="currentColor" d="M39.2,-57.5C49.8,-46.3,56.6,-33.5,62.7,-19.3C68.7,-5.2,73.9,10.3,71.6,25C69.2,39.8,59.3,53.9,46.1,58C32.9,62.2,16.5,56.3,1.2,54.7C-14.2,53.1,-28.3,55.8,-42.1,51.9C-56,48,-69.5,37.5,-68.6,25.7C-67.7,14,-52.3,1,-45.9,-13.6C-39.4,-28.2,-41.7,-44.5,-35.6,-57.1C-29.4,-69.7,-14.7,-78.7,-0.2,-78.4C14.3,-78.1,28.6,-68.6,39.2,-57.5Z" transform="translate(100 100)"></path>
-                </clipPath>
-              </defs>
-              <image transform="matrix(1 0 0 1 0 0)" clip-path="url(#svg-mask1)" xlink:href="/pictures/kaubik.jpg" width="235" height="200"></image>
-            </svg>
-          </figure>
+    <div class=" container">
+        <section class="hero">
+        <div class="hero-text">
+            <h1><span class="col-primary">Sina</span> müü edasi, <span class="col-primary">meie</span> veame kohale!</h1>
+            <p>
+                Saadetis OÜ on kullerteenust ja transporti pakkuv ettevõte.
+                Põhitegevuseks on saadetiste ja pakkide laialiveod, kaasa arvatud 
+                jaotusveod. Pakume parimat kvaliteeti ja tegeleme Teie soovidega 
+                koheselt ning ka vastavalt erisoovidele!</p>
+            </div>
+            
+            <figure class="position-relative">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+                <path class="text-light" fill="currentColor" d="M51.2,-53.5C67.6,-47.4,82.7,-32.3,85.6,-15.2C88.6,2,79.2,21.2,67.7,37.2C56.2,53.3,42.5,66.2,26.7,70.8C11,75.4,-6.9,71.6,-19.6,63C-32.4,54.4,-40,41,-48.6,27.4C-57.2,13.9,-66.7,0.2,-68.1,-15.5C-69.5,-31.3,-62.8,-49.1,-50.1,-55.9C-37.5,-62.7,-18.7,-58.4,-0.6,-57.6C17.5,-56.9,34.9,-59.7,51.2,-53.5Z" transform="translate(100 100)"></path>
+                <defs>
+                    <clipPath id="svg-mask1">
+                        <path fill="currentColor" d="M39.2,-57.5C49.8,-46.3,56.6,-33.5,62.7,-19.3C68.7,-5.2,73.9,10.3,71.6,25C69.2,39.8,59.3,53.9,46.1,58C32.9,62.2,16.5,56.3,1.2,54.7C-14.2,53.1,-28.3,55.8,-42.1,51.9C-56,48,-69.5,37.5,-68.6,25.7C-67.7,14,-52.3,1,-45.9,-13.6C-39.4,-28.2,-41.7,-44.5,-35.6,-57.1C-29.4,-69.7,-14.7,-78.7,-0.2,-78.4C14.3,-78.1,28.6,-68.6,39.2,-57.5Z" transform="translate(100 100)"></path>
+                    </clipPath>
+                </defs>
+                <image transform="matrix(1 0 0 1 0 0)" clip-path="url(#svg-mask1)" xlink:href="/pictures/kaubik.jpg" width="235" height="200"></image>
+                </svg>
+            </figure>
 
-          <h2>midagi on siin</h2>
-      
+           
         
-    </section>
+            
+        </section>
+
+    </div>
     <footer>Jalus</footer>
     
     
